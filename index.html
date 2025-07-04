@@ -1,78 +1,18 @@
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('service-worker.js');
-  }
-</script>
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <title>مزرعتي</title>
- <link rel="manifest" href="manifest.json">
- <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
 </head>
 <body>
-
-  <header><h1>مزرعتي</h1></header>
-
-  <main>
-    <!-- شاشة الصفوف -->
-    <section id="lines-section">
-      <h2>اختر الصف</h2>
-      <div id="lines-list"></div>
-    </section>
-
-    <!-- شاشة الأشجار -->
-    <section id="trees-section" class="hidden">
-      <button onclick="goBackToLines()">⬅️ رجوع للصفوف</button>
-      <h2 id="trees-title"></h2>
-      <div id="trees-list"></div>
-    </section>
-
-    <!-- شاشة تفاصيل الشجرة -->
-    <section id="tree-detail-section" class="hidden">
-      <button onclick="goBackToTrees()">⬅️ رجوع للأشجار</button>
-      <h2 id="tree-title"></h2>
-
-      <div>
-        <label for="tree-status">حالة الشجرة:</label>
-        <select id="tree-status">
-          <option value="ممتازة">ممتازة</option>
-          <option value="متوسطة">متوسطة</option>
-          <option value="صغيرة">صغيرة</option>
-          <option value="مجهدة">مجهدة</option>
-          <option value="تحتاج تربية">تحتاج تربية</option>
-          <option value="مصابة">مصابة</option>
-          <option value="لا يوجد">لا يوجد</option>
-        </select>
-      </div>
-
-      <div>
-        <label for="tree-type">نوع الشجرة:</label>
-        <select id="tree-type">
-          <option value="كيت">كيت</option>
-          <option value="ناعومي">ناعومي</option>
-          <option value="سكري">سكري</option>
-          <option value="بلدي">بلدي</option>
-          <option value="ياسمين">ياسمين</option>
-          <option value="أخرى">أخرى</option>
-        </select>
-      </div>
-
-      <div style="margin-top:10px">
-        <label for="tree-note">ملاحظات:</label><br>
-        <textarea id="tree-note" rows="3" style="width: 100%;"></textarea>
-      </div>
-
-      <button onclick="saveNote()">💾 حفظ الملاحظات</button>
-
-      <h3 style="margin-top:15px;">📷 الصور:</h3>
-      <button onclick="addImage()">📷 إضافة صورة</button>
-      <div id="tree-images" class="images-grid"></div>
-    </section>
-  </main>
-
-  <input type="file" id="image-input" accept="image/*" capture="environment" class="hidden">
+  <h1>مرحبًا بك في تطبيق مزرعتي</h1>
   <script src="app.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
 </body>
 </html>
