@@ -1,12 +1,11 @@
 {
-  "name": "ãÒÑÚÊí",
-  "short_name": "ãÒÑÚÊí",
+  "name": "مزرعتي",
+  "short_name": "مزرعتي",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#f5f5f5",
   "theme_color": "#2e7d32",
- "description": "تطبيق مزرعتي لمتابعة الأشجار والملاحظات والصور"
- "description": "ÊØÈíÞ áãÊÇÈÚÉ ÃÔÌÇÑ ãÒÑÚÊß",
+  "description": "تطبيق لمتابعة أشجار مزرعتك",
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/4275/4275497.png",
