@@ -2,10 +2,14 @@
   "name": "مزرعتي",
   "short_name": "مزرعتي",
   "start_url": "./index.html",
+  "id": "/",
   "display": "standalone",
-  "background_color": "#f5f5f5",
+  "background_color": "#ffffff",
   "theme_color": "#2e7d32",
-  "description": "تطبيق لمتابعة أشجار مزرعتك",
+  "description": "تطبيق مزرعتي لمتابعة الأشجار والملاحظات والصور",
+  "launch_handler": {
+    "client_mode": "auto"
+  },
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/4275/4275497.png",
