@@ -1,5 +1,4 @@
-{
-  "name": "مزرعتي",
+ "name": "مزرعتي",
   "short_name": "مزرعتي",
   "start_url": "./index.html",
   "id": "/",
@@ -7,7 +6,7 @@
   "orientation": "portrait",
   "background_color": "#ffffff",
   "theme_color": "#2e7d32",
-  "description": "تطبيق مزرعتي لمتابعة الأشجار والملاحظات والصور",
+  "description": "تطبيق مزرعتي لمتابعة الأشجار والصور والملاحظات",
   "launch_handler": {
     "client_mode": "auto"
   },
